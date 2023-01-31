@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main id="main-table">
+      <div class="text-container">
+        <h1 class="text-container__main-title">WebSocket Tic Tac Toe</h1>
+        <span class="text-container__current-player"
+          >Current player: <span id="current-player"></span
+        ></span>
+        <span class="text-container__play-by">
+          You play by: <span id="player"></span
+        ></span>
+        <span class="text-container__info"> Info: <span id="info"></span></span>
+      </div>
+      <td id="board-cell">
+        <table id="board">
+          <tr>
+            <td id="1" onclick="cellClick(1)"></td>
+            <td id="2" onclick="cellClick(2)"></td>
+            <td id="3" onclick="cellClick(3)"></td>
+          </tr>
+          <tr>
+            <td id="4" onclick="cellClick(4)"></td>
+            <td id="5" onclick="cellClick(5)"></td>
+            <td id="6" onclick="cellClick(6)"></td>
+          </tr>
+          <tr>
+            <td id="7" onclick="cellClick(7)"></td>
+            <td id="8" onclick="cellClick(8)"></td>
+            <td id="9" onclick="cellClick(9)"></td>
+          </tr>
+        </table>
+      </td>
+    </main>
+  </body>
+</html>

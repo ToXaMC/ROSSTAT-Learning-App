@@ -1,0 +1,215 @@
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Medium.eot');
+//     src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+//         url('../../assets/fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Medium.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Medium.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Medium.ttf') format('truetype');
+//     font-weight: 500;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Heavy.eot');
+//     src: local('SF Pro Display Heavy'), local('SFProDisplay-Heavy'),
+//         url('../../assets/fonts/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Heavy.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Heavy.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Heavy.ttf') format('truetype');
+//     font-weight: 900;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-UltralightItalic.eot');
+//     src: local('SF Pro Display UltralightItalic'), local('SFProDisplay-UltralightItalic'),
+//         url('../../assets/fonts/SFProDisplay-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-UltralightItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-UltralightItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-UltralightItalic.ttf') format('truetype');
+//     font-weight: 200;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-RegularItalic.eot');
+//     src: local('SF Pro Display Regular Italic'), local('SFProDisplay-RegularItalic'),
+//         url('../../assets/fonts/SFProDisplay-RegularItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-RegularItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-RegularItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-RegularItalic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Thin.eot');
+//     src: local('SF Pro Display Thin'), local('SFProDisplay-Thin'),
+//         url('../../assets/fonts/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Thin.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Thin.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Thin.ttf') format('truetype');
+//     font-weight: 100;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Light.eot');
+//     src: local('SF Pro Display Light'), local('SFProDisplay-Light'),
+//         url('../../assets/fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Light.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Light.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Light.ttf') format('truetype');
+//     font-weight: 200;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-BlackItalic.eot');
+//     src: local('SF Pro Display Black Italic'), local('SFProDisplay-BlackItalic'),
+//         url('../../assets/fonts/SFProDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-BlackItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-BlackItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-BlackItalic.ttf') format('truetype');
+//     font-weight: 900;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Bold.eot');
+//     src: local('SF Pro Display Bold'), local('SFProDisplay-Bold'),
+//         url('../../assets/fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Bold.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Bold.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Bold.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Black.eot');
+//     src: local('SF Pro Display Black'), local('SFProDisplay-Black'),
+//         url('../../assets/fonts/SFProDisplay-Black.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Black.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Black.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Black.ttf') format('truetype');
+//     font-weight: 900;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-SemiboldItalic.eot');
+//     src: local('SF Pro Display SemiboldItalic'), local('SFProDisplay-SemiboldItalic'),
+//         url('../../assets/fonts/SFProDisplay-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-SemiboldItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-SemiboldItalic.ttf') format('truetype');
+//     font-weight: 600;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Ultralight.eot');
+//     src: local('SF Pro Display Ultralight'), local('SFProDisplay-Ultralight'),
+//         url('../../assets/fonts/SFProDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Ultralight.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Ultralight.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Ultralight.ttf') format('truetype');
+//     font-weight: 200;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-LightItalic.eot');
+//     src: local('SF Pro Display LightItalic'), local('SFProDisplay-LightItalic'),
+//         url('../../assets/fonts/SFProDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-LightItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-LightItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-LightItalic.ttf') format('truetype');
+//     font-weight: 200;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-ThinItalic.eot');
+//     src: local('SF Pro Display ThinItalic'), local('SFProDisplay-ThinItalic'),
+//         url('../../assets/fonts/SFProDisplay-ThinItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-ThinItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-ThinItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-ThinItalic.ttf') format('truetype');
+//     font-weight: 100;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-MediumItalic.eot');
+//     src: local('SF Pro Display MediumItalic'), local('SFProDisplay-MediumItalic'),
+//         url('../../assets/fonts/SFProDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-MediumItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-MediumItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-MediumItalic.ttf') format('truetype');
+//     font-weight: 500;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Semibold.eot');
+//     src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
+//         url('../../assets/fonts/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Semibold.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Semibold.ttf') format('truetype');
+//     font-weight: 600;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-HeavyItalic.eot');
+//     src: local('SF Pro Display HeavyItalic'), local('SFProDisplay-HeavyItalic'),
+//         url('../../assets/fonts/SFProDisplay-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-HeavyItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-HeavyItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-HeavyItalic.ttf') format('truetype');
+//     font-weight: 900;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-Regular.eot');
+//     src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+//         url('../../assets/fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-Regular.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF Pro Display';
+//     src: url('../../assets/fonts/SFProDisplay-BoldItalic.eot');
+//     src: local('SF Pro Display BoldItalic'), local('SFProDisplay-BoldItalic'),
+//         url('../../assets/fonts/SFProDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../../assets/fonts/SFProDisplay-BoldItalic.woff2') format('woff2'),
+//         url('../../assets/fonts/SFProDisplay-BoldItalic.woff') format('woff'),
+//         url('../../assets/fonts/SFProDisplay-BoldItalic.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: italic;
+// }
